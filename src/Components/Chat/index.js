@@ -34,7 +34,7 @@ export default function Chat (props) {
            socket.emit("disconnect");
            socket.off();
         }
-    }, [ENDPOINT, name, displayName]);
+    }, [ENDPOINT, name, room ,displayName]);
 
 
     useEffect(() => {

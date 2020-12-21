@@ -46,7 +46,7 @@ export default function Chat (props) {
                 setUsers(data.users);
             }
         });
-    }, []);
+    }, [room]);
 
     function sendMessage(event) {
         event.preventDefault();
